@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin-ext);
+
+html, body, div, h1, h2, h4, a, p {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Playfair Display Italic'), local('PlayfairDisplay-Italic'), url(http://fonts.gstatic.com/s/playfairdisplay/v10/9MkijrV-dEJ0-_NWV7E6N3L1iaS4euO_B3wJG_mMktU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans'), local('JosefinSans'), url(https://fonts.gstatic.com/s/josefinsans/v9/xgzbb53t8j-Mo-vYa23n5j0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Josefin Sans SemiBold'), local('JosefinSans-SemiBold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z_Bf3Xtc57ojmY2ox2Xv8Go.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+body {
+  font-size: normal;
+  line-height: 1em;
+  min-width: 960px;
+  max-width: 2560px;
+}
+
+.header {
+  width: 100%;
+  padding-top: 0.3em;
+  height: 4.5em;
+  position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  top: 0;
+  background-color: #FBF8F8;
+}
+
+.inside-header {
+  width: 90%;
+  height: 4em;
+  padding-top: 0.3em;
+  overflow: hidden;
+  max-width: 1280px;
+  top: 0;
+  margin: auto;
+}
+
+.logo {
+  position: fixed;
+  left: 10%;
+}
+
+.logo h1 {
+  font-family: 'Josefin Sans';
+  font-size: 2.4em;
+  cursor: default;
+  text-transform: uppercase;
+  text-shadow: 0.1em 0.1em 0.01em #787878;
+  padding: 0.1em 0.1em;
+}
+
+.about {
+  float: right;
+  margin: 0.3em 0 0 0;
+  word-spacing: 2em;
+}
+
+.logo p {
+  cursor: default;
+  font-family: 'Playfair Display';
+  font-size: 1.4em;
+  word-spacing: 0.7em;
+  line-height: 1.6em;
+  margin-left: 10%;
+  text-transform: uppercase;
+}
+
+
+
+.about a {
+  font-family: 'Playfair Display';
+  font-size: 1.5em;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  display: inline;
+  cursor: pointer;
+  color: #100000;
+  text-transform: uppercase;
+}
+
+  a:hover {
+    background-color: rgba(88, 77, 85, 0.3);
+    /*background-color: #FFCCCC;*/
+    color: #F0F0F0;
+  }
+
+  a:visited {
+    color: #0099CC;
+  }
+
+  a:active {
+    color: #380000;
+  }
